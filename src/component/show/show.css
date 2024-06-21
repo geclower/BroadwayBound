@@ -6,12 +6,8 @@
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* filter: brightness(65%) */
 }
-/* 
-.show-container:hover{
-    filter: brightness(100%);
-} */
+
 
 .show-info{
     display: flex;
@@ -29,4 +25,15 @@
 .show-title{
     font-size: 3em;
     color: white;
+}
+
+.show-modal-popup{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: lavender;
 }

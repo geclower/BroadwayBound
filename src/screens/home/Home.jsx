@@ -10,7 +10,7 @@ function Home() {
 
     useEffect(()=> {
         fetchShows()
-    }, [shows])
+    }, [])
 
     async function fetchShows(){
         const allShows = await getShows()
